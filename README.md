@@ -1,62 +1,126 @@
-# sd-security
-security data - esse repositório é para guardar projetos e estudos sobre security da informação
 
-1. Segurança da Informação - Introdução
-NIST
-National Institute of Standart Technology é uma agência não reguladora que promove a inovação por meio do avança da ciência, padrões e tecnologia de medição.
-O NIST Cybersecurity Framework (NIST CSF) consiste em padrões, diretrizes e práticas recomendadas que ajudam as organizações a melhorar seu gerenciamento de riscos de
-segurança cibernética.
+# Tópicos
+1. Apresentação e Descrição do Projeto
+2. Cenário no Brasil
+3. Pesquisa Cisco 2024
+4. Implementação de Políticas e Frameworks Internacionais
+5. Segurança da Informação e Protocolos Internacionais - NIST
+6. Correlação Direta com Outras Estruturas
+7. Conclusões Finais
 
-O NIST CSF foi projetado para ser flexível o suficiente para se integrar aos processos de segurança existentes em qualquer organização, em qualquer setor. Ele fornece um excelente ponto de partida para implementar segurança da informação e gerenciamento de riscos de segurança cibernética em praticamente qualquer organização do setor privado nos EUA.
+---
 
-2. História do NIST Cybersecurity Framework
-Em 12 de fevereiro de 2013, foi emitida a Ordem Executiva (EO) 1363: "Improving Critical Infrastructure Cybersecurity". Isto iniciou o trabalho do NIST com o setor privado dos EUA para identificar padrões de consenso voluntário existentes e melhores práticas da indústria para incorporá-los em uma estrutura de segurança cibernética". O resultado dessa colaboração foi o NIST Cybersecurity Framework 1.0.
+## 1. Apresentação e Descrição do Projeto
+O objetivo deste projeto é explorar os principais conceitos da **cibersegurança** e seus impactos nas organizações modernas. Serão discutidos frameworks, como o **NIST (National Institute of Standards and Technology)**, que oferece uma estrutura abrangente para implementação de boas práticas, políticas e procedimentos de segurança.
 
-O Cybersecurity Enhancement Act (CEA) de 2014 ampliou os esforços do NIST no desenvolvimento do cybersecurity Framework. Hoje, o NIST CSF ainda é uma das estruturas de segurança mais amplamente adotadas em todos os setores dos EUA.
+Este framework é essencial para garantir a **proteção, monitoramento e detecção de ameaças** nas aplicações, redes, softwares e dados corporativos, assegurando que as empresas estejam em conformidade com regulamentos como a **LGPD (Lei Geral de Proteção de Dados)** no Brasil.
 
-3. Estrutura central do NIST CSF
-O NIST CSF inclui funções, categorias, subcategorias e referências informativas.
+### 1.1 Contexto
+Com a era digital, a segurança cibernética tornou-se uma prioridade fundamental para as empresas. O crescimento da **internet comercial** nos anos 90 trouxe tanto avanços quanto desafios em termos de ameaças digitais, que exigem das organizações o fortalecimento de suas políticas de proteção de dados. 
 
-As funções fornecem uma visão geral dos protocolos de segurança de melhores práticas. As funções não devem ser etapas processuais, mas devem ser executadas "simultaneamente e continuamente para formar uma cultura operacional que aborde o risco dinâmico de segurança cibernética". Categoria e subcategorias fornecem plano de ação mais concretos para departamentos ou processos específicos dentro de uma organização. 
+As empresas precisam adotar ferramentas e práticas que protejam seus ativos digitais, além de estarem em conformidade com as regulamentações de proteção de dados. A implementação de segurança cibernética visa conectar pessoas, processos e tecnologias em prol da proteção da informação.
 
-Exemplos: 
+### 1.2 Por que a Cibersegurança é Importante?
+As empresas dependem de *sistemas digitais* e de *alta conectividade* para oferecer serviços eficientes aos clientes. Isso torna imperativo que seus ativos digitais estejam protegidos contra ameaças como **ataques cibernéticos** e *malware*. 
 
-- Identificar: para se proteger contra ataques cibernéticos, a equipe de segurança cibernética precisa de um entendimento completo de quais são os ativos e recursos mais importantes da organização. A função de identificação inclui categorias como gerencimento de ativos, ambiente de negócios, governança, avaliação de riscos, estratégia de gerencimento de riscos e gerenciamento de riscos da cadeia de suprimentos.
+Um exemplo notável de ataque foi o vírus **ILOVEYOU**, que, em 2000, afetou 50 milhões de computadores globalmente, causando prejuízos estimados em U$ 15 bilhões. Outro exemplo é o ransomware *WannaCry* de 2017, que gerou prejuízos de U$ 4 bilhões e afetou grandes organizações ao redor do mundo.
 
-- Proteger: a função de proteção abrange grante parte dos controles de segurança técnica e física para desenvolver e implementar salvaguardas apropriadas e proteger a infraestrutura crítica. Essas categorias são gerenciamento de identidade e controle de acesso, conscientização e treinamento, Segurança de dados, processos e procedimentos de proteção de informações, manutenção e tecnologia de proteção.
+---
 
-- Detectar: implementa medidas que alertam uma organização sobre ataques cibernéticos. As categorias de detecção incluem anomalias e eventos, monitoramento contínuo de segurança e processos de detecção.
+## 2. Cenário no Brasil
+O Brasil se destaca negativamente no ranking global de ataques cibernéticos, sendo o *4º lugar* no mundo em ataques de *ransomware*. Em 2024, o *Ministério da Saúde* foi alvo de um ataque de ransomware que comprometeu o funcionamento do sistema *ConectSUS*.
 
-- Responder: as categorias de funções de resposta garantem a resposta adequada a ataques cibernéticos e outros eventos de segurança cibernética. As categorias específicas incluem Planejamento de resposta, Comunicações, Análise, Mitigação e Melhorias.
+Outro exemplo relevante é o caso da AGF+, uma companhia de investimentos brasileira que teve dados de funcionários e clientes expostos após um ataque de ransomware em 2023.
 
-- Recuperar: as atividades de recuperação implementam planos de resiliência cibernética e garantem a continuidade dos negócios em caso de ataque cibernético, violação de segurança ou outro evento de segurança cibernética. As funções de recuperação são melhorias de planejamento de recuperação e comunicações.
+Esses eventos reforçam a necessidade de implementar políticas rigorosas de cibersegurança para proteger as organizações.
+
+---
+
+## 3. Pesquisa Cisco 2024
+Segundo a pesquisa da Cisco, apenas *5% das empresas brasileiras* possuem um nível de maturidade adequado para enfrentar as ameaças cibernéticas. Entre os principais dados revelados:
+
+- *54%* das empresas esperam sofrer um incidente de cibersegurança nos próximos 12-24 meses.
+- *72%* dos entrevistados afirmaram que a adoção de várias soluções pontuais de segurança dificulta a resposta e recuperação de incidentes.
+- *84%* das empresas enfrentam desafios com a falta de talentos especializados em cibersegurança.
+
+Esse cenário demonstra a necessidade urgente de investimento em tecnologias inovadoras e recrutamento de profissionais qualificados para reforçar as defesas digitais.
+
+---
+
+## 4. Implementação de Políticas e Frameworks Internacionais
+### 4.1 Estrutura Básica de Cybersecurity Frameworks
+A implementação de frameworks de segurança cibernética segue cinco funções essenciais:
+
+1. Identificar (ID): Avaliar e gerenciar riscos de cibersegurança.
+2. Proteger (PR): Implementar salvaguardas para garantir a entrega dos serviços.
+3. Detectar (DE): Monitorar e detectar atividades anômalas.
+4. Responder (RS): Desenvolver planos de ação após a detecção de incidentes.
+5. Recuperar (RC): Restaurar sistemas afetados por ataques.
+
+### 4.2 Exemplos de Ferramentas
+- *Identificar*: Ferramentas como o *Cisco Secure Endpoint* ajudam a identificar códigos maliciosos.
+- *Proteger*: Firewalls e *Secure Web Gateway* defendem contra malwares e phishing.
+- *Detectar*: Soluções como *Secure Network Analytics* monitoram atividades suspeitas.
+- Responder: Ferramentas auxiliam no planejamento e mitigação de impactos após um ataque.
+- Recuperar: Estratégias para restaurar sistemas e serviços críticos.
+
+---
+
+## 5. Segurança da Informação e Protocolos Internacionais - NIST
+O *National Institute of Standards and Technology (NIST)* é uma agência americana que promove o desenvolvimento de padrões de segurança cibernética amplamente adotados em todo o mundo. O *NIST Cybersecurity Framework (NIST CSF)* é uma estrutura flexível que orienta organizações na implementação de controles e boas práticas de segurança.
+
+### 5.1 Estrutura Central do NIST CSF
+O NIST CSF é composto por:
+- Funções: Identificar, Proteger, Detectar, Responder e Recuperar.
+- Categorias: Ativos, controle de acesso, detecção de ameaças, resposta a incidentes, etc.
+
+---
+
+## 6. Correlação Direta com Outras Estruturas
+O *NIST CSF* pode ser integrado com outros frameworks como:
+- CIS (Center for Internet Security Controls)
+- COBIT 5
+- ISA (International Society of Automation)
+
+### 6.1 Níveis de Implementação do NIST Framework
+- *Nível 1 - Parcial*: Familiaridade limitada com o framework.
+- *Nível 2 - Risco Informado*: Maior conscientização sobre os riscos.
+- *Nível 3 - Risco Repetido*: Processo de gerenciamento de risco estabelecido.
+- *Nível 4 - Adaptativo*: Capacidade de adaptar-se rapidamente às ameaças.
+
+### 6.2 Estabelecendo um Programa de Gerenciamento de Riscos
+O NIST oferece um guia para estabelecer um programa robusto de gestão de riscos de segurança cibernética, incluindo a definição de escopo, identificação de prioridades e implementação de planos de ação.
+
+---
+
+## Conclusões Finais
+A *cibersegurança* é um pilar essencial para a proteção dos ativos digitais das organizações. Com a adoção de frameworks robustos, como o <NIST>, e o investimento em novas tecnologias, as empresas podem melhorar significativamente suas defesas contra as crescentes ameaças cibernéticas.
+
+É fundamental que as organizações implementem medidas proativas, como monitoramento constante e resposta rápida a incidentes, para garantir a continuidade dos negócios em um ambiente cada vez mais digital e interconectado.
+
+---
+
+<Pontos Relevantes do Artigo:>
+1. Importância da implementação de políticas de segurança cibernética.
+2. Framework NIST como estrutura chave para proteção de dados.
+3. Desafios enfrentados pelas empresas no Brasil.
+4. Exemplos históricos de ataques cibernéticos.
+5. A necessidade de talentos especializados em cibersegurança.
+
+---
+
+>Perguntas Comuns<
+1. O que é um ataque de ransomware?
+2. Como o NIST CSF pode ajudar na proteção de dados?
+3. Por que a segurança cibernética é importante para as empresas?
+4. Quais são os principais frameworks de segurança cibernética?
+5. Quais foram os maiores ataques cibernéticos da história recente?
+
+---
+
+-- Bibliografia Sugerida --
+1. NIST. "Framework for Improving Critical Infrastructure Cybersecurity."
+2. Bruce Schneier. "Secrets and Lies: Digital Security in a Networked World."
+3. Kaspersky. "Cybersecurity Threats and Trends in 2024."
 
 
-4. Correlação direta com outras estruturas
-CIS - Center For Internet Security Controls, COBIT 5, ISA (International Society os Automation.
-
-5. Camadas de implementação do NIST Framework
-Para ajudar as empresas a medir seu progresso na implementação do NIST CSF, o Framework identifica quatro níveis de implementação:
-
-- Nível 1 -> Parcial: organização está familiarizada com NIST CSF e pode ter implementado alguns aspectos de controle em algumas áreas da infraestrutura. Tem consciência limitada dos riscos de segurança e carece de processos e recursos para permitir a segurança da informação.
-- Nível 2 -> Risco Informado: organização está mais ciente dos riscos de segurança cibernética e compartilha informações informalmente. Falta um processo de gerenciamento de riscos de segurança cibernética planejado, repetível e proativo em toda organização.
-- Nível 3 -> Risco Repetido: organização e seus executivos seniores estão cientes dos riscos de segurança cibernética. Eles implementaram um plano repetido de gerenciamento de riscos de segurança cibernética em toda a organização. A equipe de segurança cibernética criou um plano de ação para monitorar e responder de forma eficaz aos ataques cibernéticos.
-- Nível 4 -> Adaptativo: organização agora é resiliente cibernética e usa lições aprendidas e indicadores preditivos para evitar ataques cibernéticos. A equipe melhora e aprimora continuamente as tecnologias e práticas de segurança cibernética e se adpata de maneira mais rápida e eficiente às ameaças. Existe uma abordagem em toda a organização para o gerenciamento de riscos de segurança de informações como tomada de decisões, políticas, procedimentos e processos informados sobre riscos. As organizações adaptáveis incorporam o gerenciamento de riscos nas decisões orçamentárias e na cultura organizazional.
-
-6. Estabelecendo um programa de gerenciamento de riscos de segurança cibernética do NIST Framework
-
-O NIST CSF fornece um guia passo a passo sobre como estabelecer ou melhorar seu programa de gerenciamento de rsicos de segurança de informações:
-
-1. Priorizar e definir escopo: ideia clara do escopo do projeto e identificar as priorizadades. Estabeleça os objetivos do negócio ou missão de alto nível, as necessidades de negócios e determine a tolerância ao risco da organização
-
-2. Orientar: faça um balanço dos ativos e sistemas da organização e identifique os regulamentos aplicáveis, a abordagem de de risco e ameaças às quais a organização pode estar exposta.
-
-3. Criar um perfil atual: um perfil atual é uma captura instantânea de como a organização está gerenciando o rsico no momento, conforme definido pelas categorias e subcategorias do CSF
-
-4. Conduzir uma avaliação de risco: avalie o ambiente operacional, riscos emergentes e informações sobre ameaças à segurança cibernéticas para determinar a probabilidade e a gravidade de um evento de segurança cibernética que pode afetar a organização.
-
-5. Criar um perfil de destino: um perfil de destino representa o objetivo de gerenciamento de riscos da equipe de segurança de informações.
-
-6. Determine, analise e priorize lacunas: ao identificar as lacunas entre o perfil atual e o destino, a equipe de segurança de informações pode criar plano de ação, incluindo marcos mensuráveis e recursos (pessoas, orçamentos, tempo) necessários para preencher essas lacunas.
-
-7. Implementar plano de ação: implemente o plano de ação definido na etapa 6
